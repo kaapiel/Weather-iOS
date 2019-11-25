@@ -13,7 +13,7 @@ import Combine
 struct LoginView: View {
     
     @EnvironmentObject var calls: HttpCalls
-    @State var email: String = "gabriel.fraga@cielo.com.br"
+    @State var email: String = "gabriel_aguido@hotmail.com"
     @State var jiraUser: JiraUser?
     @State var loading: Bool = false
     @State var buttonText: String = "ENTRAR"
