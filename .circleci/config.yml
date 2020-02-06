@@ -1,23 +1,46 @@
-# For a detailed guide to building and testing on iOS, read the docs:
-# https://circleci.com/docs/2.0/testing-ios/
-
 version: 2.1
-
-jobs:
-  build:
-
-    macos:
-      xcode: 11.0.0 # Specify the Xcode version to use
-
+jobs: 
+  build-macos:
+    working_directory: ~/Weather-iOS 
+    macos:  
+      xcode: 11.3.0    
     steps:
       - checkout
-      - run: pod install # Install CocoaPods dependencies
-      - run: fastlane scan # Run tests using Fastlane
-
-      # Collect XML test results data to show in the UI, and save the same XML
-      # files under test-results folder in the Artifacts tab
-      - store_test_results:
-          path: test_output
-      - store_artifacts:
-          path: test_output
-          destination: scan-output
+      - run:
+          name: Install Sonar Scanner
+          command: |
+          export SONAR_SCANNER_VERSION=4.2.0.1873
+          export SONAR_SCANNER_HOME=$HOME/.sonar/sonar-scanner-$SONAR_SCANNER_VERSION-macosx
+          rm -rf $SONAR_SCANNER_HOME
+          mkdir -p $SONAR_SCANNER_HOME
+          curl -sSLo $HOME/.sonar/sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-$SONAR_SCANNER_VERSION-macosx.zip
+          unzip $HOME/.sonar/sonar-scanner.zip -d $HOME/.sonar/
+          rm $HOME/.sonar/sonar-scanner.zip
+          export PATH=$SONAR_SCANNER_HOME/bin:$PATH
+          export SONAR_SCANNER_OPTS="-server"
+      - run:
+          name: Sonar Scan
+          command: |
+          sonar-scanner \
+          -Dsonar.projectKey=weather-ios \
+          -Dsonar.organization=gabs \
+          -Dsonar.sources=. \
+          -Dsonar.host.url=https://sonarcloud.io \
+          -Dsonar.login=d8d000fcd48f779809a5f1eab8ec013bdb95db17
+      - run:
+          name: Install Homebrew Dependencies
+          command: brew install yarn
+      - run:
+          name: Install Node Dependencies
+          command: yarn install
+      - run:
+          name: Run tests
+          command: fastlane scan
+          environment:
+            SCAN_DEVICE: iPhone 11 Pro
+            SCAN_SCHEME: WebTests
+workflows:
+  main:
+    jobs:
+      - build:
+          context: SonarCloud
