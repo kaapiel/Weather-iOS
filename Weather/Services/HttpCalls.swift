@@ -3,7 +3,7 @@
 //  Weather
 //
 //  Created by Gabriel Aguido Fraga on 30/08/19.
-//  Copyright © 2019 Cielo. All rights reserved.
+//  Copyright © 2019 Aguido. All rights reserved.
 //
 
 import MongoKitten
@@ -57,7 +57,7 @@ class HttpCalls: ObservableObject {
     @Published var jiraUser: JiraUser?
     @Published var finished: Bool = false
     
-    let mongoIp = "10.82.252.152"
+    let mongoIp = "192.168.0.1"
     let mongoPort = "27017"
     let mongoUser = "developer"
     let mongoPass = "C!elo_dev"
@@ -200,12 +200,12 @@ class HttpCalls: ObservableObject {
     
     func getJiraUser(email: String) -> JiraUser? {
                 
-        guard let url = URL(string: "https://jiracielo.atlassian.net/rest/api/latest/user?username=\(email.split(separator: "@")[0])") else { return nil }
+        guard let url = URL(string: "https://jira.atlassian.net/rest/api/latest/user?username=\(email.split(separator: "@")[0])") else { return nil }
         
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.setValue("Basic dDIxMDZyc25AcHJlc3RhZG9yY2JtcC5jb20uYnI6R3FGMzZrNVI4ZDJWUzVna1VjSVpCMjE3", forHTTPHeaderField: "Authorization")
+        request.setValue("Basic hjkgjhctotYZLXYFLYDLUGSLyghdmhdHKD", forHTTPHeaderField: "Authorization")
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             

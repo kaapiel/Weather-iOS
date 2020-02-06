@@ -3,7 +3,7 @@
 //  Weather
 //
 //  Created by Gabriel Aguido Fraga on 23/08/19.
-//  Copyright © 2019 Cielo. All rights reserved.
+//  Copyright © 2019 Aguido. All rights reserved.
 //
 
 import SwiftUI
@@ -37,15 +37,15 @@ struct LoginView: View {
             VStack(alignment: .leading) {
                 
                 VStack(alignment: .leading) {
-                    Text("Login Cielo")
+                    Text("Login Corp")
                         .colorInvert()
                         .font(.largeTitle)
                     
-                    Text("Utilize o email cielo para entrar")
+                    Text("Utilize o email corporativo para entrar")
                         .colorInvert()
                         .font(.subheadline)
                     
-                    TextField("email@cielo.com.br", text: $email)
+                    TextField("email@empresa.com.br", text: $email)
                         .colorInvert()
                         .padding(.all)
                         .background(Color.gray)

@@ -3,7 +3,7 @@
 //  Weather
 //
 //  Created by Gabriel Aguido Fraga on 04/10/19.
-//  Copyright © 2019 Cielo. All rights reserved.
+//  Copyright © 2019 Aguido. All rights reserved.
 //
 
 import UIKit

@@ -361,7 +361,7 @@ extension DemoBaseViewController: UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    @objc open class func cieloColors () -> [NSUIColor]
+    @objc open class func empresaColors () -> [NSUIColor]
     {
         return [
             NSUIColor(red: 136/255.0, green: 136/255.0, blue: 136/255.0, alpha: 1.0),

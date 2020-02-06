@@ -3,7 +3,7 @@
 //  Weather
 //
 //  Created by Gabriel Aguido Fraga on 03/09/19.
-//  Copyright © 2019 Cielo. All rights reserved.
+//  Copyright © 2019 Aguido. All rights reserved.
 //
 //   let scoreResult = try? newJSONDecoder().decode(ScoreResult.self, from: jsonData)
 

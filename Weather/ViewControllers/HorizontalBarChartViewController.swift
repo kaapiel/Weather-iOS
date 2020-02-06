@@ -105,7 +105,7 @@ class HorizontalBarChartViewController: DemoBaseViewController {
         let set1 = BarChartDataSet(entries: yVals, label: "Issues por Tipo")
         set1.drawIconsEnabled = false
         set1.drawValuesEnabled = false
-        set1.colors = DemoBaseViewController.cieloColors()
+        set1.colors = DemoBaseViewController.empresaColors()
         
         let data = BarChartData(dataSet: set1)
         data.setValueFont(UIFont(name:"HelveticaNeue-Light", size:10)!)

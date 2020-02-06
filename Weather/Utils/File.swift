@@ -3,7 +3,7 @@
 //  Weather
 //
 //  Created by Gabriel Aguido Fraga on 16/10/19.
-//  Copyright © 2019 Cielo. All rights reserved.
+//  Copyright © 2019 Aguido. All rights reserved.
 //
 
 import Foundation
@@ -21,10 +21,10 @@ class Constants {
     let SIGO = "SIGO"
     let RECEBAMAIS = "Receba Mais"
     let PFI = "PFI"
-    let PTO = "Cielo Pay - PTO Core"
-    let CIELOPAY = "Hyaku"
+    let PTO = "Empresa Pay - PTO Core"
+    let EMPRESAPAY = "Hyaku"
     let SITE = "Site"
-    let APP = "App Cielo"
+    let APP = "App Empresa"
     let MONETIZACAO = "Monetização de Dados"
     let CREDENCIAMENTO = "Credenciamento"
     let POS = "POS"

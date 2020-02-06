@@ -116,7 +116,7 @@ class BarChartViewController: DemoBaseViewController {
             barChartView.notifyDataSetChanged()
         } else {
             set1 = BarChartDataSet(entries: yVals, label: "Issues por criticidade")
-            set1.colors = DemoBaseViewController.cieloColors()
+            set1.colors = DemoBaseViewController.empresaColors()
             set1.drawValuesEnabled = false
             
             let data = BarChartData(dataSet: set1)
