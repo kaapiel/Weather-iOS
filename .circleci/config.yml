@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: Install Sonar Scanner
-          command: |
+          command:
           export SONAR_SCANNER_VERSION=4.2.0.1873
           export SONAR_SCANNER_HOME=$HOME/.sonar/sonar-scanner-$SONAR_SCANNER_VERSION-macosx
           rm -rf $SONAR_SCANNER_HOME
@@ -20,7 +20,7 @@ jobs:
           export SONAR_SCANNER_OPTS="-server"
       - run:
           name: Sonar Scan
-          command: |
+          command:
           sonar-scanner \
           -Dsonar.projectKey=weather-ios \
           -Dsonar.organization=gabs \
