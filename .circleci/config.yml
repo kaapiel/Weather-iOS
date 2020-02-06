@@ -1,9 +1,11 @@
 version: 2.1
-jobs: 
-  build-macos:
-    working_directory: ~/Weather-iOS 
-    macos:  
-      xcode: 11.3.0    
+jobs:
+  build-and-test:
+    working_directory: ~/Weather-iOS
+    macos:
+      xcode: 11.3.1
+    environment:
+      HOMEBREW_NO_AUTO_UPDATE: 1
     steps:
       - checkout
       - run:
