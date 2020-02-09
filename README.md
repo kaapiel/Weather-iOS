@@ -1,14 +1,16 @@
 ![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=alm-integration-java&metric=alert_status)](https://sonarcloud.io/dashboard?id=alm-integration-java)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=alm-integration-java&metric=ncloc)](https://sonarcloud.io/dashboard?id=alm-integration-java)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=alm-integration-java&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=alm-integration-java)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=alm-integration-java&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=alm-integration-java)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=alm-integration-java&metric=security_rating)](https://sonarcloud.io/dashboard?id=alm-integration-java)
-![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/ALMIntegration-Java/master)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=alert_status)](https://sonarcloud.io/dashboard?id=weather-ios)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=ncloc)](https://sonarcloud.io/dashboard?id=weather-ios)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=weather-ios)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=weather-ios)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=security_rating)](https://sonarcloud.io/dashboard?id=weather-ios)
+![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/Weather-iOS/master)
 [![API](https://img.shields.io/badge/API-26%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=26)
 
-A powerful & easy to use library for Android
+# Weather iOS
+A powerful & easy to use iOS app for quality Management.
+
 
 ## Table of Contents
 1. [Quick Start](#quick-start)
@@ -65,12 +67,3 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 <br/>
-
-<h2 id="creators">Special Thanks :heart:</h2>
-
-These people rock!
-
-- [Daniel Marques](https://www.linkedin.com/in/dmarques) - Who helped me and encouraged me to take steps further
-- [Rodrigo Franchi](https://www.linkedin.com/in/rodrigo-franchi-817b9339) - Who gave lots of ideas and several ways to solve problems
-- [Rafael Barriento](https://www.linkedin.com/in/rafael-barriento-de-goes-8014b1b1) - Who gave me tons of tech insights to create innovative solutions
-- [Diogo Julião](https://www.linkedin.com/in/diogo-oliveira-4b7a96128) - Who encourage me to whatever ideia i had as an outstading one
