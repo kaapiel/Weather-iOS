@@ -1,11 +1,11 @@
 ![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=weather-android&metric=alert_status)](https://sonarcloud.io/dashboard?id=weather-android)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=weather-android&metric=ncloc)](https://sonarcloud.io/dashboard?id=weather-android)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-android&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=weather-android)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-android&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=weather-android)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-android&metric=security_rating)](https://sonarcloud.io/dashboard?id=weather-android)
-![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/Weather-Android/master)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=alert_status)](https://sonarcloud.io/dashboard?id=weather-ios)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=ncloc)](https://sonarcloud.io/dashboard?id=weather-ios)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=weather-ios)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=weather-ios)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=security_rating)](https://sonarcloud.io/dashboard?id=weather-ios)
+![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/Weather-iOS/master)
 [![API](https://img.shields.io/badge/API-26%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=26)
 
 # Weather Android
