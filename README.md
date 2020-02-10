@@ -1,6 +1,4 @@
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/menu.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/ranking.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/system-options-0.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/banner.png)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=alert_status)](https://sonarcloud.io/dashboard?id=weather-ios)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=ncloc)](https://sonarcloud.io/dashboard?id=weather-ios)
@@ -30,12 +28,8 @@ Install this app and replace jira/sonar/jenkins servers urls!
 
 <h2 id="examples">Examples :eyes:</h2>
 
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/cards.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/splash.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/suggestions.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/system-options-1.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/system-options-2.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/system-options-3.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/example-1.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Weather-iOS/example-2.png)
 
 <br/>
 
