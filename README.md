@@ -6,7 +6,6 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=weather-ios)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=security_rating)](https://sonarcloud.io/dashboard?id=weather-ios)
 ![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/Weather-iOS/master)
-[![API](https://img.shields.io/badge/API-26%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=26)
 
 # Weather Android
 A powerful & easy to use Android app for quaity management!
