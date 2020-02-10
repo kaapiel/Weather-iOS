@@ -8,7 +8,7 @@
 ![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/Weather-iOS/master)
 
 # Weather Android
-A powerful & easy to use Android app for quaity management!
+A powerful & easy to use Android app for quality management!
 
 You can found the Android version of this app [here](https://github.com/kaapiel/Weather-Android)
 
