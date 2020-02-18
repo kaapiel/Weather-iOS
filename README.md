@@ -7,10 +7,16 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=weather-ios&metric=security_rating)](https://sonarcloud.io/dashboard?id=weather-ios)
 ![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/Weather-iOS/master)
 
-# Weather Android
+# Weather iOS
 A powerful & easy to use Android app for quality management!
 
 You can found the Android version of this app [here](https://github.com/kaapiel/Weather-Android)
+
+### To access SonarCloud data use this link: 
+#### https://sonarcloud.io/dashboard?id=weather-ios
+
+### To access pipeline and CI data use this link: 
+#### https://circleci.com/gh/kaapiel/Weather-iOS
 
 ## Table of Contents
 1. [Quick Start](#quick-start)
